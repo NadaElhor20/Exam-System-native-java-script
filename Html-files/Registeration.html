@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style-files/Style1.css">
+    <title>Registeration</title>
+</head>
+
+<body>
+    <div id="continar">
+        <header>
+            Online Examination System
+        </header>
+        <div id="imgDiv">
+        </div>
+        <div id="formBorder">
+            <br>
+            <h2>Exam Regisration Form</h2>
+            <div id="RegForm">
+                <label id="l1" >First Name </label>
+                <input id="n1" type="text" title="This field can not be empty"   placeholder=" Enter your first name" oninput="fname()">
+                <span id = "s1" style="color:red">    </span> 
+
+                <label id="l2">Last Name</label>
+                <input id="n2" type="text>"  placeholder=" Enter your last name" oninput=" lname()">
+                <span id = "s2" style="color:red">    </span><br>
+
+                <label id="l3">Email Address</label>
+                <input id="n3" type="email" placeholder=" Enter your email address" oninput="mail()"><br>
+                <span id = "s3" style="color:red">    </span><br>
+
+                <label id="l4">Enter Password</label>
+                <input id="n4" type="password" placeholder=" Enter your password" oninput="p1()">
+                <span id = "s4" style="color:red">   </span><br>
+
+                <label id="l5">RE-Enter Password</label>
+                <input id="n5" type="password" placeholder=" RE-Enter your password"  oninput="p2()">
+                <span id = "s5" style="color:red">    </span>
+
+                <input id="l6" type="button" value="Register">
+
+            </div>
+
+        </div>
+
+    </div>
+    <script src="../js-files/script.js"></script>
+</body>
+
+</html>

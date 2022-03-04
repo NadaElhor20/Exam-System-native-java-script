@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examination System</title>
+    <link rel="stylesheet" href="../style-files/style.css">
+</head>
+
+<body>
+    <div class="main_container">
+        <div id="myProgress">
+            <div id="myBar"></div>
+        </div>
+        <div class="container">
+            <div class="form">
+
+                <div class="main">
+                    <div class="title">
+                        <h2> Math Exam</h2>
+                    </div>
+                </div>
+                <div class="question">
+
+                </div><br>
+
+
+                <div class="choices">
+                    <div class="choice"><input type="radio" class=" radio" id="r-0" name="ch" onchange="answerByUser(event)"><label></label></div>
+                    <div class="choice"><input type="radio" class=" radio" id="r-1" name="ch" onchange="answerByUser(event)"><label></label></div>
+                    <div class="choice"><input type="radio" class=" radio" id="r-2" name="ch" onchange="answerByUser(event)"><label></label></div>
+                    <div class="choice"><input type="radio" class=" radio" id="r-3" name="ch" onchange="answerByUser(event)"><label></label></div>
+                </div><br><br>
+                <div class="mydiv">
+                    <button class ="btn" id="b">Previous</button><button class ="btn" id="mark">Mark</button><button class ="btn"
+                            id="n">Next</button>
+                </div>
+            </div>
+        </div>
+        <div class="hash">
+            <div>
+                <h2>Marked Questions</h2>
+            </div>
+        </div>
+        <div class="Submit"><button id="sub" onclick="sub()">Submit</button></div>
+    </div>
+    <script src="../js-files/Exam.js"></script>
+</body>
+
+</html>

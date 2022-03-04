@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+   }
+#bg{
+    display: block;       
+   }
+   #bg::after {
+  content: "";
+  background: url(../assets/img0.png);
+  opacity: 0.3;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+}
+#continar2{
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+}
+#start{
+    display:none;
+    justify-content: center;
+    margin-top: 300px;
+}
+#start input{
+    font-size: larger;
+    font-weight: bolder;
+    color: navy;
+}
+header{
+    color:#2b75b9;
+    font-size: 48px;
+    font-weight:700;
+    padding: 20px;
+}
+#formBorder2{
+   background-color:rgb(220, 253, 255);
+    border-radius: 20px;
+    border:2px solid #478ac9;
+    padding: 20px;
+    color:#0e70cc;
+}
+#RegForm2{
+     margin: 20px;
+    width: 300px;
+   display: grid;
+   row-gap:10px;
+   align-items: center;
+   grid-template-rows: 1fr 1fr 5px 1fr 1fr 5px  1fr 0 0 0;
+   font-weight: bold;
+  background-color:rgb(220, 253, 255);
+  }
+input{
+    background-color:rgb(220, 253, 255);
+    padding: 10px;
+    border-radius: 20px;
+}
+label{
+    background-color:rgb(220, 253, 255);
+}
+ span{
+ font-size: 10px;
+}
+#l8{
+     grid-row: 1 /2;
+}
+#n8{
+     grid-row: 2 /3;
+}
+#s8{
+    grid-row: 3 /4;
+}
+#l9{
+     grid-row: 4 /5;
+}
+#n9{
+     grid-row: 5 /6;
+}
+#s9{
+    grid-row: 6 /7;
+}
+#l7{
+    height: 40px;
+    border-radius: 20px;
+    background-color:#478ac9 ;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    grid-row: 7 /8;
+}
