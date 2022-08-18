@@ -89,7 +89,7 @@ RegForm.addEventListener('click', function () {
         localStorage.setItem('Lname', lName.value);
         localStorage.setItem('uEmail', Email.value);
         localStorage.setItem('uPas', pw1.value);
-        window.location.replace('./signin.html')
+        window.location.replace('../Html-files/Signin.html')
         // window.location.href = "/signin.html";
     }
 })
